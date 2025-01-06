@@ -1,6 +1,8 @@
 // Import the required package
 import natural from "natural"
 
+// 
+
 // Create a Naive Bayes classifier object
 const classifier = new natural.BayesClassifier();
 
@@ -24,7 +26,6 @@ classifier.addDocument("We are facing a lot of issues with the integration of th
 classifier.addDocument("The programming language we’re using is outdated and lacks modern features.", "negative");
 classifier.addDocument("The API documentation is unclear and difficult to understand.", "negative");
 classifier.addDocument("The lack of unit tests is making it difficult to ensure code quality.", "negative");
-
 
 
 // Train the classifier (finalize training)
